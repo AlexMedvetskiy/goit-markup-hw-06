@@ -480,7 +480,50 @@
                 </button>  
                 <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
                 <form class="modal-form">
+                    <label >
+                        <span class="span-form-input">І'мя</span> 
+                    <input type="text" 
+                    class="form-input" 
+                    name="user-name" 
+                    placeholder="pic name"
+                    required>
+                </label>
+                    
+                <label>
+                    <span class="span-form-input">Телефон</span>
+                    <input type="email" 
+                    class="form-input" 
+                    name="user-email" 
+                    placeholder="pic email"> 
+                </label>
+                    
+                <Label>
+                    <span class="span-form-input">Пошта</span>
+                    <input type="tel" 
+                    class="form-input" 
+                    name="user-tel" 
+                    placeholder="pic tel"
+                    minlength="10">
+                </Label> 
 
+               <label>
+                <span class="span-form-input">Коментар</span>
+               
+                <textarea name="user-coment" 
+                id="user-coment" 
+                class="textarea-coment"
+                placeholder="Введіть текст"
+                ></textarea>
+               </label>
+
+               <div>
+                <label for="conditions">
+                <input type="checkbox" id="conditions" name="checkbox-conditions" value="conditions">
+                Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a> </label>
+               </div>
+                    
+               <button type="submit" class="btn-form-modal">Відправити</button>
+                
                 </form>
                 
                
