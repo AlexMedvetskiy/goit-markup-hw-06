@@ -896,17 +896,36 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
   }
+
+
+
+.div-label {
+    margin-bottom: 10px;
+   }
+
+.imput-wrap {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
   .form-input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
-margin-bottom: 10px;
+
   }
 
   .form-input::placeholder {
-    color: yellow;
-   
+    color: rgb(0, 204, 255);
+padding: 42px;   
     
   }
 

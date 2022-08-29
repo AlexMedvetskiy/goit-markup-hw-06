@@ -478,17 +478,28 @@
                     <use href="./close.svg.svg#icon-close-black"> </use>    
                     </svg>
                 </button>  
+               
                 <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+                
                 <form class="modal-form">
-                    <label >
+                    <div class="div-label">
+                    <label for="user-name"> </label>
                         <span class="span-form-input">І'мя</span> 
+                        <div class="imput-wrap">
                     <input type="text" 
                     class="form-input" 
                     name="user-name" 
+                    id="user-name"
                     placeholder="pic name"
                     required>
-                </label>
-                    
+               
+                <svg class="input-icon"  width="18"  height="18" > 
+                    <use href="./icons.svg.svg#icon-person-black"></use>
+                </svg>
+            </div>
+            </div>
+                  
+            <div class="div-label">
                 <label>
                     <span class="span-form-input">Телефон</span>
                     <input type="email" 
@@ -496,7 +507,9 @@
                     name="user-email" 
                     placeholder="pic email"> 
                 </label>
-                    
+            </div>
+                  
+                <div class="div-label">
                 <Label>
                     <span class="span-form-input">Пошта</span>
                     <input type="tel" 
@@ -505,7 +518,9 @@
                     placeholder="pic tel"
                     minlength="10">
                 </Label> 
+            </div>
 
+                <div class="div-label">
                <label>
                 <span class="span-form-input">Коментар</span>
                
@@ -515,6 +530,7 @@
                 placeholder="Введіть текст"
                 ></textarea>
                </label>
+            </div>
 
                <div>
                 <label for="conditions">
