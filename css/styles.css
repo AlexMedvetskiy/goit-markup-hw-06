@@ -863,6 +863,7 @@ top: 0px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 40px;
   }
 
   .modal-close {
@@ -884,6 +885,16 @@ cursor: pointer;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+  }
+  .modal-title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
   }
   
 
