@@ -410,7 +410,12 @@
     </main>
     
     
-    <!-- footer -->
+
+
+
+
+
+    <!---------------------------------------------------------- FOOTER------------------------------------------------------------- -->
     <footer class="footer">
         <div class="container">
             <div class="box-footer-address">
@@ -469,13 +474,12 @@
                         </div>
 
                         <div class="div-label-footer">
-                            <label for="user-email-footer"></label>
-                                <span class="span-footer-input">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</span>
-                                <div class="input-foter-div">
+                            <label for="user-email-footer" class="user-email-footer">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label>
+                                <div class="input-footer-div">
                                 <input type="email" 
                                 class="form-input-footer" 
-                                name="user-email" 
-                                id="user-email"
+                                name="user-email-footer" 
+                                id="user-email-footer"
                                 placeholder="E-mail"> 
                                
                                 <button type="submit" 
@@ -490,11 +494,22 @@
                     </div>
             </footer>
            
+
+
+
+
+
+
+
+
+
+
+
 <!-- ------------------------MODAL------------------------------------------ -->
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal-window" >
                 <button type="button" class="modal-close" data-modal-close>
-                    <svg class="icon-close-black" width="18" hight="18">
+                    <svg class="icon-close-black" width="18" height="18">
                     <use href="./close.svg.svg#icon-close-black"> </use>    
                     </svg>
                 </button>  
@@ -503,8 +518,7 @@
                 
                 <form class="modal-form">
                     <div class="div-label">
-                    <label for="user-name"></label>
-                        <span class="span-form-input">І'мя</span> 
+                    <label for="user-name" class="label-form-input">І'мя</label>
                         <div class="input-wrap">
                     <input type="text" 
                     class="form-input" 
@@ -521,8 +535,7 @@
                   
                           
                 <div class="div-label">
-                <Label for="user-tel"></Label> 
-                    <span class="span-form-input">Телефон</span>
+                <Label for="user-tel" class="label-form-input">Телефон</Label> 
                     <div class="input-wrap">
                     <input type="tel" 
                     class="form-input" 
@@ -536,9 +549,8 @@
                     </svg>
                 </div>
             </div>
-            <div class="div-label"></label>
-                <label for="user-email">
-                    <span class="span-form-input">Пошта</span>
+            <div class="div-label">
+                <label for="user-email"class="label-form-input">Пошта</label>
                     <div class="input-wrap">
                     <input type="email" 
                     class="form-input" 
@@ -553,16 +565,13 @@
             </div>
 
                 <div class="div-label">
-               <label>
-                <span class="span-form-input">Коментар</span>
-               
-                <textarea name="user-coment" 
+               <label for="user-coment" class="label-form-input">Коментар</label>
+               <textarea name="user-coment" 
                 id="user-coment" 
                 class="textarea-coment"
                 placeholder="Введіть текст"
                 ></textarea>
-               </label>
-            </div>
+                          </div>
 
                <div class="div-label">
                 
